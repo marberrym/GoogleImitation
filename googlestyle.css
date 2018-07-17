@@ -1,0 +1,151 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+
+.flexclass {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.flexscreen {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexclassbottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font: 13px Arial;
+    border: 1px solid rgb(228, 228, 228);
+    padding-bottom: 20px;
+}
+
+.flexspacer {
+    flex: 4;
+}
+.flexspacer2 {
+    flex: 7;
+}
+
+.signin {
+    font: bold 13px Arial;
+    color: white;
+    background-color: rgb(81, 147, 251);
+    border: 1px solid rgb(53, 124, 234);
+    padding: 8px;
+    padding-right: 15px;
+    margin-top: 15px;
+
+}
+
+
+.mainlogo {
+    font: 90px Josefin sans;
+    letter-spacing: -16px;
+    text-align: center;
+    padding-bottom: 3px;
+    flex-shrink: 0;
+}
+
+.searchfunction {
+    width: 600px;
+    height: 40px;
+    background-image: url('icons/micicon.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px;
+    background-position-x: 565px;
+    border-top: white;
+    border-left: white;
+    border-bottom: white;
+    border-right: white;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding-left: 15px;
+    -webkit-appearance: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.searchbar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signin:hover {
+    text-decoration: none;
+    background-color: rgb(52, 119, 219);
+    border-color: rgb(60, 111, 192);
+}
+    
+
+.links {
+    font: 13px Arial;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 25px;
+    color: black
+}
+
+.linksbottom {
+    font: 13px Arial;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 25px;
+    color: black
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.boxes {
+    text-align: center;
+    font: bold 13px Arial;
+    text-decoration: none;
+    color:rgb(117, 117, 117);
+    background-color: rgb(241, 241, 241);
+    margin-right: 5px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: white;
+    border-left: white;
+    border: 1px solid rgb(241, 241, 241);
+}
+.boxes:hover {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(117, 117, 117);
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(73, 72, 72);
+    padding-right: 15px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+

@@ -2,55 +2,47 @@
     <head>
         <meta charset="utf8" />
         <title>Welcome to Google</title>
-        <link rel="stylesheet" href="googlestye.css">
+        <link rel="stylesheet" href="googlestyle.css">
         <link rel="normalizer" href="normalizer.css">
-        <link rel ="icon" href="gicon.png">
+        <link rel ="icon" href="icons/gicon.png">
     </head>
-    <body>
-        <span class="topbar">
-            <h1 style="margin-right: 50px">
-                <a href="about.html">About</a>
-                <a href="store.html" style="padding-left: 15px">Store</a>
-                <div style="text-align: right">
-                    <a href ="gmail.html">Gmail</a>
-                    <a href ="images.html" style="padding-left: 15px">Images</a>
-                    <a href="options.html"><img style="height: 15px; padding-left: 15px" src="squares.svg"></a>
-                </div>
-            </h1>
-        </span>
-        <div style="margin-top: 30vh">
-            <p class="mainlogo">
-                <span style="color: blue">G</span>
-                <span style="color: red">o</span>
-                <span style="color:orange">o</span>
-                <span style="color: blue">g</span>
-                <span style="color: green">l</span>
-                <span style="color: red">e</span>
-            </p>
+    <body class="flexscreen">
+        <nav class="navbar">   
+            <div class="flexclass">
+                <a class="links" href="about.html">About</a>
+                <a class="links" href="store.html">Store</a>
+                <div class="flexspacer"></div>
+                <a class="links" href="gmail.html">Gmail</a>
+                <a class="links" href="images.html">Images</a>
+                <a class="links" href="sqaures.html"><img src="icons/squares.svg" style="height: 15px; opacity: .35;"></a>
+                <a class="signin" href="signin.html">Sign in</a>
+            </div> 
+        </nav>
+        <div class="flexspacer"></div>
+        <div class="mainlogo">
+            <span style="color: rgb(70, 136, 241)">G</span>
+            <span style="color: rgb(229, 68, 60)">o</span>
+            <span style="color:rgb(248, 186, 45)">o</span>
+            <span style="color: rgb(70, 136, 241)">g</span>
+            <span style="color: rgb(57, 164, 86)">l</span>
+            <span style="color: rgb(229, 68, 60)">e</span>
         </div>
-        <p class="searchbar">
-            <input type="text" placeholder= "">
-        </p>
-        <h2 style="text-align: center">
-            <span class="boxes">
-                <a href="search.html">Google Search</a>
-            </span>
-            <span class ="boxes">
-                <a href="lucky.html">I'm feeling lucky</a>
-
-            </span>
-        </h2>
-        <span class="footer">
-            <h3 class="bottombar">
-                <a href="advertising.html">Advertising</a>
-                <a href="business.html">Business</a>
-                <div style="text-align: right">
-                    <a href="privacy.html">Privacy</a>
-                    <a href="terms.html">Terms</a>
-                    <a href="settings.html">Settings</a>
-                </div>
-            </h3>
-        </span>
+        <div class="searchbar">
+            <input class="searchfunction" type="text" placeholder= "">
+        </div>
+        <div style="text-align: center; margin-top: 40px">
+                <a class="boxes" href="search.html">Google Search</a>
+                <a class="boxes"href="lucky.html">I'm feeling lucky</a>
+        </div>
+        <div class="flexspacer2"></div>
+        <nav class="flexclassbottom">
+            <a class="linksbottom" href="advertising.html">Advertising</a>
+            <a class="linksbottom" href="business.html">Business</a>
+            <div class="flexspacer"></div>
+            <a class="linksbottom" href="privacy.html">Privacy</a>
+            <a class="linksbottom" href="terms.html">Terms</a>
+            <a class="linksbottom" href="settings.html">Settings</a>
+        </nav>
         
 
     </body>
